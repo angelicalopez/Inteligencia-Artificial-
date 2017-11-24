@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/angelicabibiana/ontologies/2017/10/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/angelicabibiana/ontologies/2017/10/untitled-ontology-5">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Defectos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cualidades"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Codigo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angelica_Bibiana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cual1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Edad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cual3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cual2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fortalezas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cual4"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Tienecualidades"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Daunafortaleza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Peso"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Cedula"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Escualidadde"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Cualidades"/>
+        <NamedIndividual IRI="#Cual1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cualidades"/>
+        <NamedIndividual IRI="#Cual2"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Daunafortaleza"/>
+        <NamedIndividual IRI="#Cual1"/>
+        <NamedIndividual IRI="#Cual1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escualidadde"/>
+        <NamedIndividual IRI="#Cual1"/>
+        <NamedIndividual IRI="#Cual1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Daunafortaleza"/>
+        <NamedIndividual IRI="#Cual2"/>
+        <NamedIndividual IRI="#Cual2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escualidadde"/>
+        <NamedIndividual IRI="#Cual2"/>
+        <NamedIndividual IRI="#Cual2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Daunafortaleza"/>
+        <NamedIndividual IRI="#Cual3"/>
+        <NamedIndividual IRI="#Cual3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escualidadde"/>
+        <NamedIndividual IRI="#Cual3"/>
+        <NamedIndividual IRI="#Cual3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Daunafortaleza"/>
+        <NamedIndividual IRI="#Cual4"/>
+        <NamedIndividual IRI="#Cual4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Escualidadde"/>
+        <NamedIndividual IRI="#Cual4"/>
+        <NamedIndividual IRI="#Cual4"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Codigo"/>
+        <NamedIndividual IRI="#Cual1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">321</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nombre"/>
+        <NamedIndividual IRI="#Cual1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tolerante</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Codigo"/>
+        <NamedIndividual IRI="#Cual2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">123</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nombre"/>
+        <NamedIndividual IRI="#Cual2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Alegre</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Codigo"/>
+        <NamedIndividual IRI="#Cual3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">456</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nombre"/>
+        <NamedIndividual IRI="#Cual3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Creativa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Codigo"/>
+        <NamedIndividual IRI="#Cual4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">654</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Nombre"/>
+        <NamedIndividual IRI="#Cual4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Sociable</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Tienecualidades"/>
+        <ObjectProperty IRI="#Escualidadde"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Daunafortaleza"/>
+        <Class IRI="#Angelica_Bibiana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Escualidadde"/>
+        <Class IRI="#Angelica_Bibiana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Tienecualidades"/>
+        <Class IRI="#Angelica_Bibiana"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Daunafortaleza"/>
+        <Class IRI="#fortalezas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Escualidadde"/>
+        <Class IRI="#Cualidades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Tienecualidades"/>
+        <Class IRI="#Cualidades"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Cedula"/>
+        <Class IRI="#Angelica_Bibiana"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Codigo"/>
+        <Class IRI="#Cualidades"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Codigo"/>
+        <Class IRI="#Defectos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Codigo"/>
+        <Class IRI="#fortalezas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Edad"/>
+        <Class IRI="#Angelica_Bibiana"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nombre"/>
+        <Class IRI="#Angelica_Bibiana"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nombre"/>
+        <Class IRI="#Cualidades"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nombre"/>
+        <Class IRI="#Defectos"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Nombre"/>
+        <Class IRI="#fortalezas"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Peso"/>
+        <Class IRI="#Angelica_Bibiana"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Cedula"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Codigo"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Edad"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Peso"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
